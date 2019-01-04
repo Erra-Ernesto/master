@@ -49,7 +49,7 @@ import tensorflow as tf
 #]
 _ENIT_TRAIN_DATASETS = [
     [
-        "http://download1193.mediafire.com/0ljw8tp9q76g/1pwrjzcmtok4zwo/Books.zip",
+        "http://download1193.mediafire.com/0ljw8tp9q76g/1pwrjzcmtok4zwo/Books.tar",
         ("Books.txt/Books.en-it.en",
          "Books.txt/Books.en-it.it")
     ]
