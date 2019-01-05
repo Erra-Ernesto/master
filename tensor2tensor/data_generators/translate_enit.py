@@ -155,7 +155,7 @@ class TranslateEnitWmt8k(translate.TranslateProblem):
 
     def source_data_files(self, dataset_split):
         train = dataset_split == problem.DatasetSplit.TRAIN
-        return _ENIT_TRAIN_DATASETS if train else _ENIT_TEST_DATASETS
+        return _ENIT_TRAIN_DATASETS #if train else _ENIT_TEST_DATASETS
 
 
 @registry.register_problem
