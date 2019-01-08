@@ -93,7 +93,7 @@ def _get_wmt_enit_bpe_dataset(directory, filename):
             tf.gfile.Exists(train_path + ".en")):
         url = ("https://drive.google.com/open?id=1F3apMpe1lijbUzZfMNPBJlvURgV3Sx2t")
         corpus_file = generator_utils.maybe_download_from_drive(
-            directory, "News-Commentary11-enit.tar", url)
+            directory, "News-Commentary-enit.tar", url)
 
         # convert zip to tar
 
