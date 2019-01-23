@@ -47,8 +47,8 @@ _ENIT_TRAIN_DATASETS = [
     ],
     [
         "http://fuffa.com/EUbookshop.tar",  # EUbookshop
-        ("EUbookshop.txt/EUbookshop.en-it.en",
-         "EUbookshop.txt/EUbookshop.en-it.it")
+        ("EUbookshop/EUbookshop.en-it.en",
+         "EUbookshop/EUbookshop.en-it.it")
     ]
 ]
 
