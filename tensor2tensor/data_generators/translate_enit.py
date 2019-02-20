@@ -61,18 +61,18 @@ _ENIT_TRAIN_DATASETS = [
 #
 #]
 
-_ENIT_TEST_DATASETS = [
-    [
-        "http://download1869.mediafire.com/4728hs18i7kg/yibn5iibdy4t6yk/News-Commentary.tar",  # Newscommentary11
-        ("News-Commentary/News-Commentary.en-it.en",
-         "News-Commentary/News-Commentary.en-it.it")
-    ],
-    [
-        "http://dw.convertfiles.com/files/0237482001525345058/OpenSubtitles.tar",
-        ("OpenSubtitles/OpenSubtitles.en-it.en",
-         "OpenSubtitles/OpenSubtitles.en-it.it")
-    ]
-]
+#_ENIT_TEST_DATASETS = [
+#    [
+#        "http://download1869.mediafire.com/4728hs18i7kg/yibn5iibdy4t6yk/News-Commentary.tar",  # Newscommentary11
+#        ("News-Commentary/News-Commentary.en-it.en",
+#         "News-Commentary/News-Commentary.en-it.it")
+#    ],
+#    [
+#        "http://dw.convertfiles.com/files/0237482001525345058/OpenSubtitles.tar",
+#        ("OpenSubtitles/OpenSubtitles.en-it.en",
+#         "OpenSubtitles/OpenSubtitles.en-it.it")
+#    ]
+#]
 
 
 def convert(ifn, ofn):
@@ -160,7 +160,7 @@ class TranslateEnitWmt8k(translate.TranslateProblem):
 
     def source_data_files(self, dataset_split):
         train = dataset_split == problem.DatasetSplit.TRAIN
-        return _ENIT_TRAIN_DATASETS if train else _ENIT_TEST_DATASETS
+        return _ENIT_TRAIN_DATASETS #if train else _ENIT_TEST_DATASETS
 
 
 @registry.register_problem
