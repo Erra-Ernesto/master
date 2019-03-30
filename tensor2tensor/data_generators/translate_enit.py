@@ -40,26 +40,26 @@ _ENIT_TRAIN_DATASETS = [
     #    ("ParaCrawl/ParaCrawl.en-it.en",
     #     "ParaCrawl/ParaCrawl.en-it.it")
     #],
-    [
-        "http://download1193.mediafire.com/0ljw8tp9q76g/1pwrjzcmtok4zwo/OpenSubtitles.tar",
-        ("OpenSubtitles/OpenSubtitles.en-it.en",
-         "OpenSubtitles/OpenSubtitles.en-it.it")
-    ],
-    [
-        "http://download1193.mediafire.com/0ljw8tp9q76g/1pwrjzcmtok4zwo/Newstest2009.tar",
-        ("Newstest2009/newstest2009.en",
-         "Newstest2009/newstest2009.it")
-    ]
     #[
-    #    "http://download1193.mediafire.com/0ljw8tp9q76g/1pwrjzcmtok4zwo/Europarl_v7.tar",  # Europarl_v7
-    #    ("Europarl_v7/Europarl.en-it.en",
-    #     "Europarl_v7/Europarl.en-it.it")
+    #    "http://download1193.mediafire.com/0ljw8tp9q76g/1pwrjzcmtok4zwo/OpenSubtitles.tar",
+    #    ("OpenSubtitles/OpenSubtitles.en-it.en",
+    #     "OpenSubtitles/OpenSubtitles.en-it.it")
     #],
     #[
-    #    "http://fuffa.com/EUbookshop.tar",  # EUbookshop
-    #    ("EUbookshop/EUbookshop.en-it.en",
-    #     "EUbookshop/EUbookshop.en-it.it")
+    #    "http://download1193.mediafire.com/0ljw8tp9q76g/1pwrjzcmtok4zwo/Newstest2009.tar",
+    #    ("Newstest2009/newstest2009.en",
+    #     "Newstest2009/newstest2009.it")
     #]
+    [
+        "http://download1193.mediafire.com/0ljw8tp9q76g/1pwrjzcmtok4zwo/Europarl_v7.tar",  # Europarl_v7
+        ("Europarl_v7/Europarl.en-it.en",
+         "Europarl_v7/Europarl.en-it.it")
+    ],
+    [
+        "http://fuffa.com/EUbookshop.tar",  # EUbookshop
+        ("EUbookshop/EUbookshop.en-it.en",
+         "EUbookshop/EUbookshop.en-it.it")
+    ]
 ]
 
 _ENIT_TEST_DATASETS = [
