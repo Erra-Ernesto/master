@@ -49,7 +49,7 @@ _ENIT_TRAIN_DATASETS = [
         "http://download1193.mediafire.com/0ljw8tp9q76g/1pwrjzcmtok4zwo/DGT.tar",
         ("DGT/DGT.en-it.en",
          "DGT/DGT.en-it.it")
-    ]
+    ],
     [
         "http://download1193.mediafire.com/0ljw8tp9q76g/1pwrjzcmtok4zwo/Europarl_v7.tar",  # Europarl_v7
         ("Europarl_v7/Europarl.en-it.en",
